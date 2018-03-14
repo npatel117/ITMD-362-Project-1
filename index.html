@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> Project-1 Nihar Patel</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-        <link href="CSS/screen.css" media="screen" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<title> Project-1 Nihar Patel</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link href="CSS/screen.css" media="screen" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     </head>
     
-    <body>
+<body>
     
-    <img id = "image1" src="images/cas.jpg" alt="image">
+<img id = "image1" src="images/cas.jpg" alt="image">
 
-            <div class="form">
-            <section id="form-section">
-            
-                <h1> Chicago Auto Show </h1>
-
-                <p> Sign up for show updates! </p>
-                <form id="signup-form">
-                
-                            <label for="name-input"> Name </label>
-                            <input type="text" id="name-input"/>
-                        
-                            <label for="email-input"> Email </label>
-                            <input type="email" id="email-input"/>
-                      <ul>  
-                        <li class="form-item" id="submit">
-                            <input type="button" id="form-submit" value="Submit"/>
-                        </li>
-                    </ul>
-                
-                </form>
-                
-            </section>
-            </div>
-     
+<form method="GET" action="#null">	
         
-        <!-- Javascript Files -->
+	<div class="centerFieldset">
+		<fieldset>
+			<h1> Chicago Auto Show </h1>
+			<p>
+				<label for="name-input"> Name </label>
+				<input type="text" id="name-input"/>
+			</p>
+			<p>
+          		<label for="EmailAddress">Email Address</label>
+          		<input type="email" id="EmailAddress">
+        	</p>
+        	<p>
+          		<label for="DOB">Date of Birth</label>
+          		<input type="date" id="DOB">
+        	</p>
+        	<p>
+          		<input type="submit" value="Submit Form" id="submit_button">
+        	</p>
+        </fieldset>
+    </div>
+  </form>        
+  
+   <!-- Javascript Files -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="js/site.js" type="application/javascript"></script>
         
-    </body>
+</body>
 </html>
