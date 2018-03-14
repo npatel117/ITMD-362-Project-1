@@ -29,16 +29,16 @@ footer, header, hgroup, main, menu, nav, section {
 	display: block;
 }
 html {
-	line-height: 1;
+  line-height: 1;
 }
 body {
   line-height: inherit;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -46,6 +46,6 @@ q:before, q:after {
 	content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse; 
+  border-spacing: 0;
 }
